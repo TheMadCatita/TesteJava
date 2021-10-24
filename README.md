@@ -29,8 +29,11 @@ http://localhost:8080/eventos/deleteEventoId/id // deletar um evento
 http://localhost:8080/eventos/updateEventoId/id // update um evento
 
 Inscricoes:
-http://localhost:8080/inscricoes/adicionar
-http://localhost:8080/inscricoes/listar
-http://localhost:8080/inscricoes/
-http://localhost:8080/inscricoes/
-http://localhost:8080/inscricoes/
+
+http://localhost:8080/inscricoes/listarId/id                       // listar uma unica inscrição
+http://localhost:8080/inscricoes/getInscricoesIdUsuario/idUsuario  // listar eventos de um usuario 
+http://localhost:8080/inscricoes/getUsuariosIdEvento/idEvento      // listar usuarios evento
+http://localhost:8080/inscricoes/postCriaInscricao                 // adicionar uma inscrição
+http://localhost:8080/inscricoes/putUpdateInscricao/id             // update uma inscrição
+http://localhost:8080/inscricoes/deleteInscricaoById/id            // deletar uma inscrição pelo id
+http://localhost:8080/inscricoes/deleteInscricaoByIdeventoUsuario/idevento/idusuario // deletar uma inscrição de um usuário
